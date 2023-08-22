@@ -1,0 +1,110 @@
+
+
+body, h1, h2, h3, p, a, img, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+
+header {
+    padding: 50px 0 ;
+    background-color: #000;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color:aquamarine;
+    text-decoration: underline;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.video-section {
+    padding: 0 0 50px ;
+    background-color: #000;
+}
+
+.video-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.guide-section {
+    padding: 0 0 50px; 
+    background-color: #000;
+    text-align: center; 
+}
+
+.guide-section h2 {
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 42px; 
+    margin-bottom: 10px;
+    color: white; 
+}
+
+
+.guide-subtitle {
+    font-family: Verdana, sans-serif;
+    font-size: 21px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+
+.images-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    margin-bottom: 30px; 
+}
+
+
+.images-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+.guide-section h3 {
+    font-family: Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 42px; 
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    padding: 10px;
+    font-size: 12px;
+    color: gray;
+    background-color: #000;
+    text-align: right;
+}
